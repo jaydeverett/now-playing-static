@@ -195,3 +195,25 @@ figure {
 .about > p {
   margin: 0;
 }
+
+/* media queries */
+
+@media ( min-width: 768px ) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 65px;
+  }
+
+  .site-nav-item {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 43px 0;
+    width: 100%;
+    height: 100%;
+  }
+}
